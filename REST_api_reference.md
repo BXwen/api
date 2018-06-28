@@ -42,7 +42,7 @@ data 说明:
     "last": 当前成交价,
     "maxPrice": 近24小时最高价,
     "minPrice": 近24小时最低价,
-	"averagePrice": 近24小时平均价,
+    "averagePrice": 近24小时平均价,
     "count": 近24小时累积成交数,
     "vol": 近24小时累积成交额, 即 sum(每一笔成交价 * 该笔的成交量)
   }
