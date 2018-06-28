@@ -52,7 +52,7 @@ data 说明:
 请求响应例子
 
 ```
-/* GET /market/detail?symbol=bz-usdt */
+/* GET /market/tickers?symbol=bz-usdt */
 {
   "success": true,
   "returnCode": "200",
@@ -71,7 +71,7 @@ data 说明:
   }
 }
 
-/* GET /market/detail?symbol=not-exists */
+/* GET /market/tickers?symbol=not-exists */
 {
   "success": false,
   "returnCode": "30024",
